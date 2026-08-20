@@ -1,0 +1,26 @@
+{
+  "name": "costmanager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "users": "node users/server.js",
+    "costs": "node costs/server.js",
+    "logs": "node logs/server.js",
+    "about": "node about/server.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.2",
+    "pino": "^10.3.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  },
+  "description": ""
+}
