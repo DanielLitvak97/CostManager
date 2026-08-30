@@ -160,7 +160,6 @@ costmanager/
 ├── jest.config.js
 ├── package.json
 ├── package-lock.json
-└── professor_test.py
 ```
 
 ## Notes
